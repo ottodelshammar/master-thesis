@@ -2,7 +2,7 @@
 %with the cut of values for The Partial Collection Test.
 function [min_ent_result] = partial_collection_val(biased_bitsets)
 
-    cut_offs = [-1,647,1130,1483,1731,1896,1995,2042];
+    cut_offs = [-1,693,1186,1543,1792,1957,2056,2103];
     min_entropy_values = [0,0.13,0.26,0.39,0.52,0.65,0.78,0.91];
     min_ent_result = [];
 
