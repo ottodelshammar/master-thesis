@@ -36,13 +36,13 @@ architecture architecture_THE_PARTIAL_COLLECTION_TEST of THE_PARTIAL_COLLECTION_
     signal BIT_2 : std_logic;
     
     --Cut-off values
-    constant L1 : std_logic_vector(11 downto 0) := "001010000111"; --647
-    constant L2 : std_logic_vector(11 downto 0) := "010001101010"; --1130
-    constant L3 : std_logic_vector(11 downto 0) := "010111001011"; --1483
-    constant L4 : std_logic_vector(11 downto 0) := "010111001011"; --1731
-    constant L5 : std_logic_vector(11 downto 0) := "011101101000"; --1896
-    constant L6 : std_logic_vector(11 downto 0) := "011111001011"; --1995
-    constant L7 : std_logic_vector(11 downto 0) := "011111111010"; --2042
+    constant L1 : std_logic_vector(11 downto 0) := "001010110101"; --693
+    constant L2 : std_logic_vector(11 downto 0) := "010010100010"; --1186
+    constant L3 : std_logic_vector(11 downto 0) := "011000000111"; --1543
+    constant L4 : std_logic_vector(11 downto 0) := "011100000000"; --1792
+    constant L5 : std_logic_vector(11 downto 0) := "011110100101"; --1957
+    constant L6 : std_logic_vector(11 downto 0) := "100000001000"; --2056
+    constant L7 : std_logic_vector(11 downto 0) := "100000110111"; --2103
 
 begin
 
